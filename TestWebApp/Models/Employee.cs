@@ -5,13 +5,12 @@ using System.Threading.Tasks;
 
 namespace TestWebApp.Models
 {
-    public class Users
+    public class Employee
     {
-        public string Username { get; set; }
-        public string Pwd { get; set; }
+        public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-
-        public List<string> Roles = new List<string>();
+        public string Phone { get; set; }
+        public string Email { get; set; }
     }
 }
